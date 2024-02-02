@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.body {
+    background-color: black;
+    font-family: 'Merriweather', serif;
+    height: 100hv;
+}
+
+/* page welcome */
+
+.nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.txtfld {
+    color: aliceblue !important;
+}
+
+
+.banner {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-benner {
+    padding-top: 25rem;
+    text-align: center;   
+}
+
+.btn-contact {
+    border-color: transparent;
+    background-color: transparent;
+    margin: 5px;
+    margin-top: 30px;
+
+}
+.btngroup {
+    width: 500px;
+    margin: auto;
+}
+.btngroup button {
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+/* .about {
+    height: 60vh;
+} */
+
+
+@media (max-width: 767px) {
+    .row {
+        margin: 15px !important;
+    }
+    .row h3 {
+        font-size: large;
+        padding-left: 0;
+    }
+
+    .home {
+        background-color: aqua;
+    }
+    .text-benner  {
+    font-size: 7px;
+    padding: 30px;
+    padding-top: 15rem;    
+    }
+    .text-welcome {
+        font-size: 12px;
+    }
+    .text-about  {
+        padding-top: 0 !important;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px !important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-4 img {
+        width:15rem !important;
+    }
+    .col-md-4 .btn-contact {
+        width: 40px;
+    }
+    .col-md-4 button {
+    width: 7rem;
+    font-size: 10px;
+    margin-bottom: 10px;
+    }
+    .btngroup {
+      width: 30%; 
+    }
+    .btngroup button {
+        font-size: small;
+    }
+    .city {
+        font-size: 13px;
+    }
+    .about .col-md-6 p, h3 {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    /* service*/
+    .card-service {
+        width: 17rem;
+        height: 18rem !important;
+        font-size: small;
+    }
+    .card .card.title {
+        font-size: 10px;
+    }
+    /* project */
+    .card-project {
+        font-size: smaller;
+        width: 16rem !important;
+    }
+  }
