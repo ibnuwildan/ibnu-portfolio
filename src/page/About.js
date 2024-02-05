@@ -11,8 +11,8 @@ const AboutPage = ()=> {
           <Container>
             <div className="justify-content-center d-flex flex-wrap py-5">
             <CardConntent title="<>" subtitle="Front End" text="responsible for implementing visual elements that users see and interact with in a web application."/>
-            <CardConntent title="<>" subtitle="UI Designer" text="build interfaces in software or computerized devices, focusing on looks or style."/>
-            <CardConntent title="<>" subtitle="Web Designer" text="plan, create, and code and web pages."/>
+            <CardConntent title="@" subtitle="UI Designer" text="build interfaces in software or computerized devices, focusing on looks or style."/>
+            <CardConntent title=";" subtitle="Web Designer" text="plan, create, and code and web pages."/>
             </div>
           </Container>
         </div>

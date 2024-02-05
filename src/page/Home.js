@@ -33,7 +33,7 @@ const HomePage = () => {
     <div className=""  style={{ backgroundColor: "black", minHeight: "100vh" }}>
       <NavbarComponent />
       <div className="justify-content-center align-items-center">
-      <p className="text-welcome text-center text-white pt-5  "> Hello {nama}, tahnk you for visiting my portfolio </p>
+      <p className="text-welcome text-center text-white pt-5  "> Hallo {nama}, thank you for visiting my portfolio </p>
             <div className="row-welcome row justify-content-center bg-secondary py-5" style={{margin: "50px"}}>
               <div className="col-md-4 text-center pt-5">
               <Image  src={require('../img/inu.jpg')} rounded  style={{width: "70%"}}/> <br/>
