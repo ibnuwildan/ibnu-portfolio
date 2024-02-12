@@ -3,7 +3,7 @@
 .body {
     background-color: black;
     font-family: 'Merriweather', serif;
-    height: 100hv;
+    min-height: 100vh;
 }
 
 /* page welcome */

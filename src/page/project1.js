@@ -33,7 +33,7 @@ const ProjectSatu = ()=> {
         <span className="fw-bold">Build With : </span>Reactjs, Bootstrap.
         </Card.Text>
         <Card.Text>
-        <span className="fw-bold">Year : </span>2022
+        <span className="fw-bold">Year : </span>2023
         </Card.Text>
         <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small" href="https://github.com/ibnuwildan/oddi-project">
         Github

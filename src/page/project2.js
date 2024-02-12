@@ -19,27 +19,27 @@ const ProjecDua = ()=> {
         <Card className="bg-ligth" style={{ width: '70%' }}>
             <div className="row">
                 <div className="col-md-6">
-                <CarouselContent img1={require("../img/cover.jpg")} img2={require("../img/cover.jpg")} img3={require("../img/cover.jpg")}/>
+                <CarouselContent img1={require("../img/movie1.png")} img2={require("../img/movie2.png")} img3={require("../img/movie3.png")}/>
                 </div>
                 <div className="col-md-6">
         <Card.Body className="" style={{paddingTop: "80px"}}>
         <CardTitle className="pb-3"> Project Info</CardTitle>
         <Card.Text>
-          <span className="fw-bold">Project Name : </span>Find Movie
+          <span className="fw-bold">Project Name : </span>Movie Time
         </Card.Text>
         <Card.Text>
-          <span className="fw-bold">Description : </span>find your pavorite movie
+          <span className="fw-bold">Description : </span>find your pavorite movie, based on the category you want and based on the search you want
         </Card.Text>
         <Card.Text>
         <span className="fw-bold">Build With : </span>Reactjs, Bootstrap, Api
         </Card.Text>
         <Card.Text>
-        <span className="fw-bold">Year : </span>2022
+        <span className="fw-bold">Year : </span>2024
         </Card.Text>
-        <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small" href="https://github.com/ibnuwildan/find-movie">
+        <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small" href="https://github.com/ibnuwildan/movie-time">
         Github
       </Button>
-        <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://ibnuwildan.github.io/find-movie/">
+        <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://movietime.oddidesign.com/">
         Demo
       </Button>
         {/* <Button variant="primary">Go somewhere</Button> */}
