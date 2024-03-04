@@ -33,9 +33,9 @@ const ProjecTiga = ()=> {
         <span className="fw-bold">Build With : </span>Reactjs, Nodejs, express.js, Bootstrap, MYSQL.
         </Card.Text>
         <Card.Text>
-        <span className="fw-bold">Year : </span>2022
+        <span className="fw-bold">Year : </span>2023
         </Card.Text>
-        <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small">
+        <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small" href="https://github.com/ibnuwildan/furniture">
         Github
       </Button>
         {/* <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://oddidesign.com/">
