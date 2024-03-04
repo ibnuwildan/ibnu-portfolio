@@ -15,6 +15,9 @@ const CarouselContent = (props) => {
       <Carousel.Item>
       <Image src={props.img3} text="First slide" alt="" style={{width:"100%"}} />
       </Carousel.Item>
+      <Carousel.Item>
+      <Image src={props.img4} text="First slide" alt="" style={{width:"100%"}} />
+      </Carousel.Item>
     </Carousel>
         </div>
     )

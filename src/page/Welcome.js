@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Button } from "react-bootstrap"
+import { Container, Button, Form } from "react-bootstrap"
 import { useNavigate } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
 import { TextField } from "@mui/material";
@@ -38,6 +38,7 @@ const WelcomePage = () => {
                 />  
          </div>
                 <Container className="text-center d-flex flex-column align-items-center justify-content-center">
+                <Form onSubmit={handleClick}>
                 <TextField 
                 className="txtfld" 
                 id="filled-basic" 
@@ -47,6 +48,8 @@ const WelcomePage = () => {
                 onChange={(e) => setNama(e.target.value)}
                 InputLabelProps={{ style: whiteText }}
                 InputProps={{ style: whiteText }}/>
+                </Form>
+                
                 <Button className="btn-welcome mt-3" size="sm" variant="outline-secondary"onClick={handleClick}>visit my portfolio</Button>
                 </Container>
         </div>

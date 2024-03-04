@@ -18,7 +18,7 @@ const ProjecTiga = ()=> {
         <Card className="bg-ligth" style={{ width: '70%' }}>
             <div className="row">
                 <div className="col-md-6">
-                <CarouselContent img1={require("../img/furniture2.png")} img2={require("../img/furniture1.png")} img3={require("../img/furniture3.png")}/>
+                <CarouselContent img1={require("../img/furniture2.png")} img2={require("../img/furniture1.png")} img3={require("../img/furniture3.png")} img4={require("../img/furniture.PNG")}/>
                 </div>
                 <div className="col-md-6">
         <Card.Body className="" style={{paddingTop: "80px"}}>
@@ -38,9 +38,9 @@ const ProjecTiga = ()=> {
         <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small">
         Github
       </Button>
-        <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://oddidesign.com/">
+        {/* <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://oddidesign.com/">
         Demo
-      </Button>
+      </Button> */}
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
                 </div>
