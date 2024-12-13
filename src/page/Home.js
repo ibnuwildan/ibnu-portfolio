@@ -11,7 +11,7 @@ const HomePage = () => {
 
   const location = useLocation();
   const storedNama = localStorage.getItem('nama');
-  const [nama, setNama] = useState(location.state?.nama || storedNama || '');
+  const [nama] = useState(location.state?.nama || storedNama || '');
 
   useEffect(() => {
     // Panggil openCity pada saat komponen dimuat untuk menampilkan konten awal

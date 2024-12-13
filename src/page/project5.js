@@ -3,7 +3,6 @@ import {Navbar ,Nav, Card, CardTitle } from 'react-bootstrap';
 import CarouselContent from "../component/Carousel";
 import { Button } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LanguageIcon from '@mui/icons-material/Language';
 
 const ProjectLima = () => {
     return(
