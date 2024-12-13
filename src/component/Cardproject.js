@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const CardProject = (prop) => {
     return(
-        <Card className="card-project bg-dark mx-5 text-light my-3" style={{ width: '19rem', textAlign:"justify"}}>
+        <Card className="card-project bg-dark mx-4 text-light my-3" style={{ width: '19rem', textAlign:"justify"}}>
         <img src={prop.img1} alt=""/>
           <Card.Body>
             <Card.Title>{prop.title}</Card.Title>

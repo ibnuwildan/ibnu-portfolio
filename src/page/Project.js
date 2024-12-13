@@ -1,11 +1,8 @@
-import  {React, useState} from "react";
-import { Container } from "react-bootstrap";
+import  {React} from "react";
 import CardProject from "../component/Cardproject"
-import ModalContent from "../component/Modals"
 import NavbarComponent from "../component/Navbar";
 
 const ProjectPage = () => {
-    const [showModal, setShowModal] = useState(false);
 
     return (
         <div className="pb-5">
@@ -17,8 +14,8 @@ const ProjectPage = () => {
          <CardProject img1={require("../img/movie_time.jpg")} title="Movie Time" text="Film Search Website" button="show" to="/project2"/>
          <CardProject img1={require("../img/body1.jpg")} title="Furniture" text="Furniture Website" button="show" to="/project3"/>
          <CardProject img1={require("../img/food.jpg")} title="Food" text="Company Profile website Food" button="show" to="/project4"/>
+         <CardProject img1={require("../img/logo-clinic.jpeg")} title="Healty Clinic " text="Outpatient System Services" button="show" to="/project5"/>
           </div>
-        <ModalContent text="hallo" show={showModal} setShow={setShowModal} />
             </div>
         </div>
         </div>

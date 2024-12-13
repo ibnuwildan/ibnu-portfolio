@@ -8,6 +8,7 @@ import ProjecTiga from './page/project3';
 import AboutPage from './page/About';
 import ProjectPage from './page/Project';
 import ProjectEmpat from './page/project4';
+import ProjectLima from './page/project5';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/project2' element={<ProjecDua />} />
           <Route path='/project3' element={<ProjecTiga />} />
           <Route path='/project4' element={<ProjectEmpat />} />
+          <Route path='/project5' element={<ProjectLima />} />
         </Routes>
       </Router>
       </div>
