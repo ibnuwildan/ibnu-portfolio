@@ -46,6 +46,16 @@
     border-color: transparent;
     
 }
+
+.sosial img {
+    width: 2rem;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.sosial img:hover {
+    transform: translateY(-12px);
+}
 /* .about {
     height: 60vh;
 } */
@@ -69,8 +79,17 @@
     padding-top: 15rem;    
     }
     .text-welcome {
-        font-size: 12px;
+        font-size: 13px;
     }
+    .row .sosial img {
+        width: 20px !important; /* Gunakan !important jika aturan lain menimpa */
+        height: auto; /* Pastikan proporsi tetap */
+        transition: 0.4s;
+    }
+    .row .sosial img:hover {
+        transform: translateY(-12px);
+      }
+
     .text-about  {
         padding-top: 0 !important;
         font-size: 13px;

@@ -2,10 +2,6 @@ import React, { useEffect, useState }  from "react";
 import {  Image, ButtonGroup, Button } from "react-bootstrap";
 import NavbarComponent from "../component/Navbar";
 import { useLocation } from "react-router-dom";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const HomePage = () => {
 
@@ -34,15 +30,27 @@ const HomePage = () => {
       <NavbarComponent />
       <div className="justify-content-center align-items-center">
       <p className="text-welcome text-center text-white pt-5  "> Hallo {nama}, thank you for visiting my portfolio </p>
-            <div className="row-welcome row justify-content-center bg-secondary py-5" style={{margin: "50px", borderRadius: "10px"}}>
+            <div className="row-welcome row justify-content-center bg-secondary py-5" style={{margin: "50px", borderRadius: "10px", minHeight: "100vh"}}>
               <div className="col-md-4 text-center pt-5">
               <Image  src={require('../img/inu.jpg')} rounded  style={{width: "70%"}}/> <br/>
-              <Button className="btn-contact" variant="secondary" type="submit" href="https://wa.me/6285217180396"><WhatsAppIcon /></Button>
-              <Button className="btn-contact" variant="secondary" type="submit" href="https://github.com/ibnuwildan?tab=repositories"><GitHubIcon /></Button>
-              <Button className="btn-contact" variant="secondary" type="submit" href="https://www.linkedin.com/in/ibnu-wildan-4379aa152/"><LinkedInIcon /></Button>
-              <Button className="btn-contact" variant="secondary" type="submit" href="https://www.instagram.com/ibnu_wildan/"><InstagramIcon /></Button><br/>
+              <div className="sosial">
+              <a href="https://wa.me/6285217180396">
+                  <img src={require("../img/sosial/whatsapp1.png")} alt="" />
+                </a>
+              <a href="https://github.com/ibnuwildan?tab=repositories">
+                  <img src={require("../img/sosial/github.png")} alt="" />
+                </a>
+              <a href="https://www.linkedin.com/in/ibnu-wildan-4379aa152/">
+                  <img src={require("../img/sosial/linkedin.png")} alt="" />
+                </a>
+              <a href="https://www.instagram.com/ibnu_wildan/">
+                  <img src={require("../img/sosial/instagram.png")} alt=""/>
+                </a>
+              <br/>
               <Button className="mt-3" variant="secondary" href={require("../img/experience.pdf")} download >Download My CV</Button>
               </div>
+              </div>
+              
               <div className="text-about col-md-5 py-5 pe-5" style={{textAlign: "justify"}}>
               <h3>About Me</h3>
           <p>I'm a front-end developer and user interface (UI) designer focused on creating visually stunning and intuitive web experiences. With expertise in HTML, CSS, JavaScript, React Js, using front-end frameworks with React. as well as back-end experience in expertise with Node Js, Express Js, Rest API,MYSQL and postman. I make sure that every website I build not only looks great, but also functions smoothly. As a UI designer, I pay attention to every detail in design to create user interfaces that are easy to use and enjoyable for users. I also ensure that every web layout I create follows responsive design and modern design principles to provide the best user experience. With a combination of technical skills and design artistry, I am ready to create engaging and intuitive web experiences for users.</p>
