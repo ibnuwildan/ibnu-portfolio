@@ -38,7 +38,7 @@ const ProjectSatu = ()=> {
         <Button className="me-3" variant="outlined" startIcon={<GitHubIcon />}  size="small" href="https://github.com/ibnuwildan/oddi-project">
         Github
       </Button>
-        <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://oddidesign.com/">
+        <Button variant="contained" startIcon={<LanguageIcon />}  size="small" href="https://oddidesign.netlify.app/">
         Demo
       </Button>
         {/* <Button variant="primary">Go somewhere</Button> */}

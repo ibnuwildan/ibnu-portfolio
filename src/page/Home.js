@@ -26,7 +26,7 @@ const HomePage = () => {
   
 
     return (
-    <div className="pb-5"  style={{ backgroundColor: "black", minHeight: "100vh" }}>
+    <div className="pb-5"  style={{backgroundColor: "black", minHeight: "100vh" }}>
       <NavbarComponent />
       <div className="justify-content-center align-items-center">
       <p className="text-welcome text-center text-white pt-5  "> Hallo {nama}, thank you for visiting my portfolio </p>
