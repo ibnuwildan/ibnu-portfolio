@@ -13,7 +13,7 @@ const ProjectPage = () => {
          <CardProject img1={require("../img/cloting.jpg")} title="Oddi Design" text="Company Profile Website Fashion" button="show" to="/project1"/>
          <CardProject img1={require("../img/movie_time.jpg")} title="Movie Time" text="Film Search Website" button="show" to="/project2"/>
          <CardProject img1={require("../img/body1.jpg")} title="Furniture" text="Furniture Website" button="show" to="/project3"/>
-         <CardProject img1={require("../img/food.jpg")} title="Food" text="Company Profile website Food" button="show" to="/project4"/>
+         <CardProject img1={require("../img/icon-finance.jpg")} title="Oddi Finance" text="financial management" button="show" to="/project4"/>
          <CardProject img1={require("../img/logo-clinic.jpeg")} title="Healty Clinic " text="Outpatient System Services" button="show" to="/project5"/>
           </div>
             </div>
